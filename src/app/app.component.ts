@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  section = 1;
+  onNav(nav: number){
+    this.section = nav
+  }
 }
